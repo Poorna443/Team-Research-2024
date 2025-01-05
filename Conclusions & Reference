@@ -1,0 +1,16 @@
+6. Conclusions
+6.1 Results explained 
+Testing using the Welch Two-Sample t-test showed a large difference in the mean number of CPU cores between AMD A-Series Processors and AMD Ryzen Processors. The result is that the difference is statistically significant, with a p-value of 2.44e-05. AMD Ryzen processors have 7.21 cores on average vs. AMD A-Series cores on average: 3.38 cores. Analysts confirm the disparity in core counts by reporting the 95% confidence interval for the mean difference to be anywhere from -5.48 to -2.18.
+6.2 Interpretation of the results 
+From the results, it might be implied that the CPU cores of the AMD Ryzen processors are relatively more than those of the AMD A-Series processors, implying that they are perhaps performing much more optimally in parallel computing tasks. Since Ryzen processors could be more suitable for gaming and content creation, which are high-performance type apps, this difference could affect consumer choices. However, in the context of the broader market, this means that Ryzen can no longer be competed with just by having a lower price point. 
+6.3 Reasons and/or implications for future work, limitations of your study
+Future work could be made to include a wider range of AMD processor families and another set of performance metrics (clock speed, TDP), and non-parametric tests when the data may not pass normality assumptions. This study is limited because only one metric (CPU cores) is used in evaluating the performance difference.
+ 
+ 
+7. Reference list 
+Anthony, K. (2022). Comparative analysis of an Intel and AMD Processor. [online] Data Science Central. Available at: https://www.datasciencecentral.com/comparative-analysis-of-an-intel-and-amd-processor/ [Accessed 30 Dec. 2024].
+‌Fasiku, A., Oyinloye, O.E., O, F.S. and S, A.O. (2014). Performance Evaluation of Multicore Processors. [online] Available at: https://www.researchgate.net/publication/350950064_Performance_Evaluation_of_Multicore_Processors.
+‌Lim, R., Lubis, I.F., Handika, J. and Sitompul, D. (2024). ANALYSIS OF THE DIFFERENCES BETWEEN INTEL AND AMD PROCESSOR DESIGNS. [online] ResearchGate. Available at: https://www.researchgate.net/publication/381427331_ANALYSIS_OF_THE_DIFFERENCES_BETWEEN_INTEL_AND_AMD_PROCESSOR_DESIGNS [Accessed 30 Dec. 2024].
+‌Mohammed, J. and Sulaiman, D.R. (2023). Performance analysis of multicore processors using multi-scaling techniques. International Journal of Power Electronics and Drive Systems/International Journal of Electrical and Computer Engineering, 13(3), pp.3079–3079. doi:https://doi.org/10.11591/ijece.v13i3.pp3079-3087.
+‌Sinaga, Y.M., Situmorang, P., Sinaga, N.A. and Sitompul, D. (2024). ASSESSING THE EFFECT OF ARM AND AMD PROCESSORS ON COMPUTER PERFORMANCE. [online] ResearchGate. Available at: https://www.researchgate.net/publication/387166169_ASSESSING_THE_EFFECT_OF_ARM_AND_AMD_PROCESSORS_ON_COMPUTER_PERFORMANCE [Accessed 30 Dec. 2024].
+‌Takano, S. (2021). Traditional microarchitectures. Elsevier eBooks, [online] pp.19–47. doi:https://doi.org/10.1016/b978-0-12-818279-6.00012-8.
