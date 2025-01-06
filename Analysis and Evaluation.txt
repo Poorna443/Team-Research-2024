@@ -1,0 +1,18 @@
+4. Analysis
+4.1 Statistical test used to test the hypotheses and output
+To compare the mean number of CPU cores for 'AMD A-Series Processors with 'AMD Ryzen™ Processors, the T-test for independent samples (ttest_ind) was used. This test is appropriate because the RQ seeks out if there are differences in the mean number of CPU cores between the two families (Takano, 2021). The data are independent samples, and by density plots, there is a reasonable basis for normality, at which point the t-test is appropriate for comparing means. 
+
+4.2 The null hypothesis is rejected /not rejected based on the p-value 
+ 
+Figure 3:  Results
+The results of the Welch Two Sample t-test reject the null hypothesis. The p-value of 2.44e-05 is way lower than the typical significance level of 0.05, so there is a circumspect difference in the mean number of CPU cores in AMD A-Series and AMD Ryzen processors. This test also demonstrates that on average, the AMD Ryzen processors have more CPU cores than the AMD AM processors, namely, AMD Ryzen has 7.21 cores and the AMD A-Series processor has 3.38 cores (Fasiku et al., 2014). It is confirmed that the difference is significant and not due to random chance with a 95% confidence interval for the mean difference of -5.48 to -2.18.
+ 
+5. Evaluation 
+5.1 What Went Well 
+The group efficiently managed data cleaning and transformation tasks such that the dataset was ready for analysis. The dataset was made clearer by renaming columns for better clarity and handling missing values. Histograms and box plots showed how useful precise visualizations can be, and also pinpointed interesting facts, like differences in CPU cores between processor families. Finally, the statistical analysis was nicely performed and the results were nicely reported along with their interpretations. 
+5.2 Points for improvement
+Documentation and communication play an important role in the process, and certainly, this area can be improved. The tasks were done efficiently but better effort could've been put together on each step had been done so that everybody was on the same page. Very few assumptions were assumed to have been met (normality assumed), so it would be helpful to explore some other statistical tests, and possibly, if necessary, non-parametric tests (such as the Mann-Whitney U test). 
+5.3 Group’s time management 
+All the members were able to manage their time well, preparing, visualizing, and analyzing their data during the given time. Some delays in communication and decision-making occurred but, these could have been minimized by working out roles at the beginning of the project. All the members spent time well across tasks.
+5.4 Project’s Overall Judgment 
+Overall, this project was able to answer the research question and provide clear and interpretable results. Visualizations and statistical testing were used and the findings were well supported. The collaborative process was thought that refining it would also help the group work efficiently in future projects.
